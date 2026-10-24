@@ -1,0 +1,13 @@
+PROJECT REPORT: Vision Based Autonomous Parking System
+
+Overview:
+This project simulates an autonomous car self-parking maneuver inside a 2D environment using Bezier path planning.
+
+Implementation Details:
+The file autonomous.py sets up a simulation canvas featuring road markings and parking bays. When triggered by the spacebar key, the system plans a curved trajectory into an empty slot. The vehicle rotates and reverses along the path until fully parked.
+
+Results:
+The car executes smooth reverse parking into the target bay with visual trajectory guidance lines and active dashboard state displays.
+
+Limitations:
+The model uses simplified point-mass movement without simulating tire friction or sliding effects.

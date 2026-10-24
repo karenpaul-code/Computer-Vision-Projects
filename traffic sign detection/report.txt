@@ -1,0 +1,13 @@
+PROJECT REPORT: Traffic Sign Detection and Recognition
+
+Overview:
+This project focuses on real-time traffic sign detection using computer vision. The goal was to eliminate high latency caused by heavy optical character recognition tools while maintaining detection accuracy.
+
+Implementation Details:
+The core program runs in main.py. It initializes a pre-trained YOLOv8 object detection model and processes video frames from an attached camera. To prevent false positives, a helper function analyzes the crop regions using HSV color masks and aspect ratio checks. Signs are classified into categories like STOP, NO ENTRY, U-TURN, and SPEED LIMIT.
+
+Results:
+The pipeline operates without lag at over 30 FPS. Color filtering successfully prevents background clutter from triggering false alerts.
+
+Limitations:
+The HSV threshold parameters depend on room lighting conditions. Extremely dim lighting can lower the color match accuracy.

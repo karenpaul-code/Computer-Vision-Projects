@@ -1,0 +1,6 @@
+DATASET INFORMATION
+
+Dataset Name: Microsoft COCO (Common Objects in Context) integrated into YOLOv8
+Provider: Ultralytics / Microsoft
+Official Page: https://docs.ultralytics.com/datasets/detect/coco/
+Usage in Code: Loaded via 'yolov8n.pt' which contains pre-trained weights for COCO classes, specifically filtering class indices for stop signs and traffic objects.

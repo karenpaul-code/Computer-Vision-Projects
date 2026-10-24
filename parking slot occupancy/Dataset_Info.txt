@@ -1,0 +1,4 @@
+DATASET INFORMATION
+
+Dataset Type: Synthetic / Computer Generated Environment
+Description: Synthetic 900x600 matrix canvas generated dynamically using NumPy array operations within parking.py.

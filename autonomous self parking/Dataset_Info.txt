@@ -1,0 +1,4 @@
+DATASET INFORMATION
+
+Dataset Type: Synthetic Kinematic Simulation Environment
+Description: 900x600 spatial road environment generated dynamically in Python using OpenCV matrix operations.

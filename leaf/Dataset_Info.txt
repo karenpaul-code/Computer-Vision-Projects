@@ -1,0 +1,4 @@
+DATASET INFORMATION
+
+Dataset Type: Synthetic / Processed Plant Foliage Images
+Description: High-resolution 800x600 matrix images capturing green leaf structures over contrasting background surfaces for color space segmentation testing.

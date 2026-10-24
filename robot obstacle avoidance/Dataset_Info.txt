@@ -1,0 +1,6 @@
+DATASET INFORMATION
+
+Model Framework: Ultralytics YOLOv8 (yolov8n.pt)
+Dataset Base: Microsoft COCO (Common Objects in Context)
+Website: https://docs.ultralytics.com/models/yolov8/
+Application: Uses pre-trained weights to detect dynamic indoor and outdoor obstacle classes in real time.
